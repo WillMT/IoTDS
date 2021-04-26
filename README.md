@@ -1,2 +1,1 @@
-# Pi-ioT
-Pi-ioT
+IoT-simple spoof attack detectiom system
