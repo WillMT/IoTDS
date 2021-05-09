@@ -21,10 +21,13 @@ def process(packet):
             except IndexError:
                 pass
 
+         
 if __name__ == "__main__":
     import sys
     try:
         iface = sys.argv[1]
     except IndexError:
         iface = conf.iface
+    # the detection will sniff the interface until interrupt by user
     sniff(store=False, prn=process, iface=iface)
+   
