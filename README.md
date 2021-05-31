@@ -3,10 +3,12 @@ IoT-simple spoof attack detectiom system
 The IoTDS is an attack detecting system that uses a variety of applications with the Home Assistant and Suricata, with the ARP spoofing detection functions. The idea is to build up an all-in-one IoT management and network attack detection system. This application is built upon its own understanding of IoT and ARP spoofing detection. The big goal is to build a network monitoring system which can detect the spoofing attack on the IoT device. 
 To begin with the IoTDS there is serval application and library needs to be installed before to run the application, to ensure all function in the application can running well.
 There are four main types of application need to install before the application can be running normal, They are:
+```
 1.	Operating system
 2.	Python and related libraries
 3.	Home assistant
 4.	Suricata
+```
 
 Basic system requirements
 IoTDS is buildup with auto network monitoring with IDS analysis function. It developed on the single-board computer Raspberry Pi 4B with the 64 bits Ubuntu Linux system and tested on the Virtual machine with the same version of Ubuntu Linux. here is the tested operation system which can normally run the application:
